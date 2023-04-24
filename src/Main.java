@@ -1,7 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
+
+
         System.out.println("Домашняя работа № 5");
+
         System.out.println("Задание № 1");
 
         int clientOS = 1;
@@ -11,7 +14,9 @@ public class Main {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
 
+
         System.out.println("Задание № 2 (первый способ)");
+
 
         int clientOS1 = 0;
         int clientDeviceYear = 2015;
@@ -30,7 +35,10 @@ public class Main {
             System.out.println(" ");
         }
 
+
+
         System.out.println("Задание № 2 (2 способ)");
+
 
         int clientOS2 = 0;
         int clientDeviceYear1 = 2013;
@@ -45,6 +53,7 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
         System.out.println("Задание № 2 (3 способ)");
+
 
         int clientOS3 = 0;
         int clientDeviceYear3 = 2015;
@@ -62,6 +71,7 @@ public class Main {
 
         System.out.println("Задание № 3 ");
 
+
         int year = 2013;
         if (year % 4 == 0 || year % 400 == 0) {
             System.out.println("Год является високостным");
@@ -70,6 +80,7 @@ public class Main {
         }
 
         System.out.println("Задание № 4");
+
 
         int deliveryDistance = 95;
         if (deliveryDistance <= 20) {
@@ -85,7 +96,9 @@ public class Main {
 
     System.out.println("Задание № 5");
 
+
     int monthNumber = 3;
+
 
     switch (monthNumber) {
         case 1:
